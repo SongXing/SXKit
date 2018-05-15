@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SXKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A kit for building ui."
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "SXFloatButton", "SXFloatButton/**/*.{h,m}"
+  s.exclude_files = "SXFloatButton"
 
   # s.public_header_files = "Classes/**/*.h"
 
