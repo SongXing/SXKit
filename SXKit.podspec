@@ -91,8 +91,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SXFloatButton", "SXFloatButton/**/*.{h,m}"
-  s.exclude_files = "SXFloatButton"
+
+# songxing add
+  s.source_files  = "SXKit/SXFloatButton/*.{h,m}"
+  # s.exclude_files = "SXKit/SXFloatButton"
+  
+  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
