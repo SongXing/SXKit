@@ -12,7 +12,6 @@
 #define ScreenW [UIScreen mainScreen].bounds.size.width
 
 #import "SXDragButton.h"
-#import "AppDelegate.h"
 
 @interface SXDragButton ()
 @property (nonatomic,assign) CGPoint startPos;
