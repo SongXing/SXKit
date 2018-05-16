@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource = "SXLIB/SPResources.bundle"
+  s.resource = "SPResources.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
