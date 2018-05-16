@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SXFloatBtn"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "A New version."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SXLIB/"
+  s.source_files  = "SXLIB/**/*","SXFloatButton/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
